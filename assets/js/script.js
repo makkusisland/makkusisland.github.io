@@ -2,10 +2,6 @@
 
 
 
-/**
- * navbar toggle
- */
-
 const navbar = document.querySelector("[data-navbar]");
 const navToggleBtn = document.querySelector("[data-nav-toggle-btn]");
 const navbarLinks = document.querySelectorAll("[data-nav-link]");
@@ -21,12 +17,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
     navToggleBtn.classList.toggle("active");
   });
 }
-
-
-
-/**
- * header
- */
 
 const header = document.querySelector("[data-header]");
 const backTopBtn = document.querySelector("[data-back-top-btn]");
